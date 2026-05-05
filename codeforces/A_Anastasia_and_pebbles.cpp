@@ -11,8 +11,9 @@ int main() {
         long long w;
         cin >> w;
 
-        total += (w + k - 1) / k;   // ceil(w/k)
+        total += (w + k - 1) / k;  // n0 of pockets that will be used
     }
 
-    cout << (total + 1) / 2;       // ceil(total/2)
+    cout << (total + 1) / 2; // counting no of days ..
 }
+// whenevr ceil(a/b) uses (a+b-1)/b.. just simple 
