@@ -13,9 +13,10 @@ void solve() {
     if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='y')
       continue;
     else{
-      ans += '.';
-      ans += ch;
+         ans += '.';
+         ans += ch;
     }
+     
    }
     cout<<ans<<endl;
 }
@@ -30,3 +31,4 @@ int main() {
 
     return 0;
 }
+// here exactly i must have to thik about a new ans satring where i can concatenate the give characters according to the strings.
