@@ -7,8 +7,8 @@ void solve() {
     for(int i=0;i<n;i++) cin>>a[i];
     int cnt=0; 
     for(int i=n-2;i>=0;i--){
-        if(a[i+1]>0)
-        a[i]+= a[i+1];
+        if(a[i]<a[i]+a[i+1]) 
+        a[i]+= a[i+1];  // it will be the modified array 
     }
  for(int i=0;i<n;i++){
     if(a[i]>0) cnt++;
